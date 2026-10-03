@@ -1,0 +1,32 @@
+{
+    "id": "middle-click-tab-animation",
+    "name": "Middle Click Sparks + Tab Open Animations",
+    "description": "Étincelles au clic milieu sur un lien, et animation à l'ouverture d'un onglet (Comète depuis le clic, Laser, Bulles).",
+    "scripts": {
+        "tab_middle_click_animation.uc.js": {
+            "include": [
+                "chrome://browser/content/browser.xhtml"
+            ]
+        },
+        "tab_open_animation.uc.js": {
+            "include": [
+                "chrome://browser/content/browser.xhtml"
+            ]
+        }
+    },
+    "author": "Based on bubble-pop-deleting by Zylaah",
+    "version": "2.2",
+    "tags": [
+        "sine",
+        "Bubble animation",
+        "New tab",
+        "fx-autoconfig",
+        "JavaScript"
+    ],
+    "preferences": "preferences.json",
+    "createdAt": "2026-10-03",
+    "updatedAt": "2026-10-03",
+    "fork": [
+        "zen"
+    ]
+}

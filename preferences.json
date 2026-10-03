@@ -1,0 +1,95 @@
+[
+  {
+    "property": "extension.middle-click-tab-animation.tab-animation-enabled",
+    "label": "Tab Open Animation",
+    "type": "checkbox",
+    "defaultValue": true,
+    "description": "Active l'animation à l'ouverture d'un onglet."
+  },
+  {
+    "property": "extension.middle-click-tab-animation.tab-animation-style",
+    "label": "Tab Animation Style",
+    "type": "dropdown",
+    "defaultValue": "comete",
+    "description": "Animation jouée à l'ouverture d'un nouvel onglet.",
+    "options": [
+      {
+        "label": "Comète",
+        "value": "comete"
+      },
+      {
+        "label": "Laser",
+        "value": "laser"
+      },
+      {
+        "label": "Bulles",
+        "value": "bulles"
+      },
+      {
+        "label": "Aléatoire",
+        "value": "random"
+      }
+    ]
+  },
+  {
+    "property": "extension.middle-click-tab-animation.tab-animation-speed",
+    "label": "Tab Animation Speed (%)",
+    "type": "string",
+    "value": "number",
+    "placeholder": "160",
+    "defaultValue": 160,
+    "description": "Vitesse de l'animation d'onglet (160 = référence, 80 = deux fois plus lent, 320 = deux fois plus rapide)."
+  },
+  {
+    "property": "extension.middle-click-tab-animation.spark-count",
+    "label": "Spark Count",
+    "type": "string",
+    "value": "number",
+    "placeholder": "8",
+    "defaultValue": 8,
+    "description": "Nombre d'étincelles autour du curseur au clic milieu sur un lien."
+  },
+  {
+    "property": "extension.middle-click-tab-animation.animation-duration",
+    "label": "Animation Duration (ms)",
+    "type": "string",
+    "value": "number",
+    "placeholder": "450",
+    "defaultValue": 450,
+    "description": "Durée de l'animation en millisecondes."
+  },
+  {
+    "property": "extension.middle-click-tab-animation.spark-length",
+    "label": "Spark Length (px)",
+    "type": "string",
+    "value": "number",
+    "placeholder": "12",
+    "defaultValue": 12,
+    "description": "Longueur d'une étincelle en pixels."
+  },
+  {
+    "property": "extension.middle-click-tab-animation.spark-width",
+    "label": "Spark Width (px)",
+    "type": "string",
+    "value": "number",
+    "placeholder": "2",
+    "defaultValue": 2,
+    "description": "Épaisseur d'une étincelle en pixels."
+  },
+  {
+    "property": "extension.middle-click-tab-animation.spread",
+    "label": "Spread (px)",
+    "type": "string",
+    "value": "number",
+    "placeholder": "44",
+    "defaultValue": 44,
+    "description": "Distance à laquelle les étincelles s'éloignent du curseur."
+  },
+  {
+    "property": "extension.middle-click-tab-animation.debug",
+    "label": "Debug (console)",
+    "type": "checkbox",
+    "defaultValue": false,
+    "description": "Affiche des logs dans la Console du navigateur (Ctrl+Shift+J)."
+  }
+]
